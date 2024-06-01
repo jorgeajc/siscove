@@ -1,0 +1,56 @@
+@page {
+    margin: 180px 20px;
+}
+table {
+    border: none;
+    width: 100%;
+    border-collapse: collapse;
+    box-align: center;
+}
+td,th { 
+    padding: 2px 1px;
+    text-align: center;
+    border: 1px solid #999; 
+    color:#000000;
+    font-size:100%;
+} 
+.tr-titulo{
+    background: #dedede;
+}
+.tr-subtitulo{
+    background: #f1f1f1;
+}
+#header, #footer {
+    position: fixed; 
+    left: 0px; 
+    right: 0px;
+    background-color: #8f9af5;
+}
+#header {
+    top: -180px;  
+    height: 165px;  
+    text-align: center; 
+}
+#footer {
+    bottom:-180px; 
+    height: 80px; 
+}
+#footer .page:after {
+    content: counter(page, upper-roman); 
+}
+.titulos{
+    color:black;
+    text-align: center;  
+}
+.subtitulo{
+    color:black;
+}
+.img{
+    position: absolute; 
+    right: 100px; 
+    top: 40px; 
+    height: 100px;
+}
+.borrar{
+    color: #8f9af5;
+} 

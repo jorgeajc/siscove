@@ -1,0 +1,24 @@
+.boton-subir{
+    display: none;
+      
+    background-image: linear-gradient( rgb(62, 60, 223),rgb(107, 176, 255));
+    border-radius: 50px; 
+    bottom:10px;
+    z-index: 999999999; 
+    left: 110px;
+    background-color: #999;
+    position: fixed; 
+}
+    /*evento hover*/
+.boton-subir:hover{
+    background: rgb(13, 106, 182);
+}
+    /*estilos para el tag i*/
+.boton-subir i{
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    padding: 10px 10px 10px 7px;
+    -ms-transform: rotate(-45deg); /* IE 9 */
+    -webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    transform: rotate(-45deg); 
+} 

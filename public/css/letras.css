@@ -1,0 +1,48 @@
+/*vertical menu titulos*/
+.vertical-nav-menu li{
+    color: #3b5eb7;
+}
+/*vertical menu sub-titulos*/
+.vertical-nav-menu li a{
+    color: #000000;
+}
+.vertical-nav-menu li a i::before  { 
+    color: #000000;
+    font-weight: bold;
+} 
+.vertical-nav-menu li a:hover{
+    color: #2464de;
+} 
+/*vertical menu sub-titulos desplegables*/
+.vertical-nav-menu ul li a {
+    color: #000000;
+} 
+
+/*header right */
+.app-header-right {
+     color: #000000;
+}
+/*header right desplegables*/
+.app-header-right li a button {
+     color: #000;
+}
+.app-header-right li a button:hover {
+     color: #2464de;
+}
+/*header left */ 
+.app-header .app-header__content .header-menu .nav-link,  .app-header .app-header__content .header-menu .nav-link i{
+    color: #000000;
+}   
+.app-header .app-header__content .header-menu .nav-link:hover {
+    color: #2464de;
+}   
+
+.app-main__inner {
+    /*background-image: url('/images/fondo.jpg');  */
+     
+    background-repeat: no-repeat; 
+    
+    /* background-size: cover;  */
+    /* background-image: linear-gradient(to bottom, #4c86f1, #a7aff7) !important; */
+    background-color: rgb(18, 121, 218);
+}

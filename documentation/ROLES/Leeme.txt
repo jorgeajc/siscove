@@ -1,0 +1,1 @@
+El sistema para que funcione de forma correcta debe tener dentro de la base de datos los roles configurados con los nombres e id que se encuentran en el archivo adjunto .sql

@@ -1,0 +1,14 @@
+.enMoney::before {
+    content:"₡";
+    color: black;
+}
+.negMoney {
+    color:red;
+}
+div.negMoney::before {
+    content:'(₡';
+    
+}
+div.negMoney::after {
+    content:')';
+}  

@@ -1,0 +1,23 @@
+ 
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+  }
+
+img.logo {
+    width: 40%; 
+}
+.titulo{ 
+    color: black;
+    text-align: center;
+}    
+.contenedor { 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 90%;
+} 
+body{
+    height:100%;
+    width: 100%;
+}

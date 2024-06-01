@@ -1,0 +1,53 @@
+table { 
+  width: 100%; 
+  border-collapse: collapse; 
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: rgb(81, 167, 224); 
+  color: white; 
+  font-weight: bold;  
+}
+td, th { 
+  padding: 5px; 
+  border: 1px solid #ccc; 
+  text-align: left;  
+} 
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  overflow: auto;
+  width: 103.5%;
+}
+ 
+@media  (max-width: 990px) {
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    overflow: auto;
+
+    /* width: 90%; */
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+#table-departas{
+  width: 90%; 
+  border-collapse: collapse;  
+}
+#panel-departas{
+  width: 70%;
+  border-collapse: collapse;  
+} 
+#centrarContenido{   
+  justify-content: center;
+  align-items: center;
+}

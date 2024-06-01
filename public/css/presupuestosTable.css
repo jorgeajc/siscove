@@ -1,0 +1,39 @@
+ td{
+  color: black;
+} 
+#pills-tab .nav-item:hover a, #pills-tab .nav-item:hover { 
+  background: rgb(135, 218, 105);
+  background: linear-gradient(0deg, rgb(120, 206, 89) 21%, rgb(220, 240, 93) 100%);
+  border-radius: 5px 5px 5px 5px;  
+  transform: scale(1, 0.9);
+  transform-origin: bottom;  
+}      
+#pills-tab .nav-item{ 
+  background-color: #ffffff;
+  border-radius: 0px 0px 0px 0px; 
+  transition: transform .2s; /* Animation */   
+}    
+.nav-pills{
+  margin: -10px 0px 0px;
+} 
+#col-airesAcon, #col-combustible, #col-lavado {
+  margin:0px auto;
+} 
+#pills-tab {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+} 
+#pills-tab a{ 
+  font-size: 1.5em !important; 
+  color: rgb(3, 0, 189);
+}   
+#pills-tab a:hover{ 
+  color: black;
+} 
+#pills-tab a.active{  
+  background: rgb(135, 218, 105);
+  background: linear-gradient(0deg, rgb(120, 206, 89) 21%, rgb(220, 240, 93) 100%);
+  color: black;
+}    
